@@ -1,7 +1,10 @@
-#pragma once
+#ifndef CLASSIFICATION_HPP
+#define CLASSIFICATION_HPP
+
 #include <string>
 #include <vector>
 
-using namespace std;
+std::string classify_target(const std::vector<double>& features);
 
-string classify_target(const vector<double>& features);
+#endif // CLASSIFICATION_HPP
+
